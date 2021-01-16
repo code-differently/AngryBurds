@@ -83,7 +83,7 @@ launchBtn.addEventListener('click', () => {
 });
 //launch on enter
 document.querySelector('#vertical').addEventListener('keyup', (event) => {
-    if (event.keyCode === 13) {
+    if (event.key === 'Enter') {
         start = setInterval(launch, 300);
     }
 });
