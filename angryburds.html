@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Burds</title>
+    <link rel="stylesheet" href="angryburds.css">
+</head>
+<body>
+    <h1 style="margin-bottom: 5px;">Angry Burds</h1>
+    <p id="score" style="margin-top: 0; margin-bottom: 5px;">Score: 0</p>
+    <div id="game">
+        <img src="imgs/kaleb.png" id="kaleb">
+        <img src="imgs/birdHouse.png" id="house">
+        <p id="endMessage"></p>
+    </div>
+    <div id="flexbox1">
+        <div id="launchDiv">
+            <!-- horizontal div -->
+            <div class="flexbox2">
+                <label for="horizontal">Horizontal Speed</label><input type="text" id="horizontal">
+            </div> 
+            <!-- vertical div -->
+            <div class="flexbox2">
+                <label for="vertical">Vertical Speed</label><input type="text" id="vertical">
+            </div>
+        </div>
+        <div id="btnDiv"></div>
+    </div>
+    <script src="angryburds.js"></script>
+</body>
+</html>
