@@ -1,0 +1,80 @@
+#mainbody{
+    display: flex;
+  justify-content: space-between;
+    border: solid 1px black;
+    }
+
+    h2 {
+
+        text-align: center;
+    }
+    #kface{
+        position: relative;
+        padding-top:37% ;
+        /* padding-left: 0px; */
+        height:60px;
+        width:70px;
+        
+    }
+    #bhouse{
+        padding-top: 15%;
+        padding-right: 25px;
+height: 90px;
+width:80px;
+
+    }
+    footer{
+        text-align: center;
+        position: absolute;
+        width:100%;
+        bottom: 0;
+    }
+  
+  .leftbottom{
+    display:flex;
+    flex-direction: row;
+    
+
+  }
+  .rightbottom{
+    display:flex;
+    flex-direction: row;
+    
+
+  }
+  .bottomCntr{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top: 15px;
+
+  }
+#newbtn{
+margin-right:80px;
+height:30px;
+background-color: lightblue;
+}
+
+
+.hspeedcntr{
+display:flex;
+flex-direction:column;
+
+}
+
+.vspeedcntr{
+    display:flex;
+    flex-direction:column;
+    margin-left: 70px;
+
+}
+#launchbtn{
+    margin-left: 70px;
+    height:30px;
+    background-color: lightblue;
+}
+
+#resetbtn{
+    height:30px;
+    background-color: pink;
+}
